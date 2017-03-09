@@ -10,7 +10,7 @@ import com.atguigu.liuchuang.base.BaseFragment;
  * Created by 刘闯 on 2017/3/9.
  */
 
-public class TypeFragment extends BaseFragment {
+public class ImgFragment2 extends BaseFragment {
     TextView textView;
     @Override
     public View initView() {
@@ -23,6 +23,6 @@ public class TypeFragment extends BaseFragment {
     @Override
     public void initData() {
         super.initData();
-        textView.setText("分类");
+        textView.setText("图片2");
     }
 }

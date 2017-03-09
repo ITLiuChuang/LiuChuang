@@ -16,6 +16,7 @@ public class FindFragment extends BaseFragment {
     public View initView() {
         textView = new TextView(mContext);
         textView.setGravity(Gravity.CENTER);
+        textView.setTextSize(20);
         return textView;
     }
 
